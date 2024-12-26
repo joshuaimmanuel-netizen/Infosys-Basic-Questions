@@ -506,3 +506,93 @@
 //        }
 //    }
 //}
+
+//public class Main {
+//    public static void main(String[] args) {
+//        int[] employeeSalary = {1350, 2342, 6754, 1200, 1363};
+//        int count = 0;
+//        for(int salary:employeeSalary){
+//            switch (salary % 2){
+//                default :
+//                    employeeSalary[count] = salary + 1;
+//                case 0:
+//                    employeeSalary[count] = salary + 1;
+//                case 1:
+//                    employeeSalary[count] = salary + 1;
+//                    break;
+//
+//
+//            }
+//        }
+//        for(int i = 0;i < employeeSalary.length;i++){
+//            System.out.println(employeeSalary[i] + "");
+//        }
+//    }
+//}
+//
+//class a{
+//    public int count;
+//    public a(){
+//        count = 10;
+//    }
+//    public  int method1(){
+//        int count = 20;
+//        return this.count;
+//    }
+//}
+//class b extends a{
+//    public int method1(){
+//        return this.count = 15;
+//    }
+//    public int method2(){
+//        return 20;
+//    }
+//}
+//class c extends b{
+//    public int method2(){
+//        return 40;
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        a obj1 = new a();
+//        b obj2 = new b();
+//        c obj3 = new c();
+//        System.out.println(obj1.method1() + obj3.method1() + obj3.method2());
+//    }
+//}
+
+//public class Calculator{
+//    private int add(int num1, int num2){
+//        return num1 + num2;
+//    }
+//}
+//public class Main {
+//    public static void main(String[] args) {
+//        Calculator calculator = new Calculator();
+//        System.out.println(calculator.add(1,2));
+//    }
+//}
+//
+//abstract class Employee{
+//    private String name;
+//    public Employee(String name){
+//        this.name = name;
+//    }public String getName()
+//    {
+//        return name;
+//    }
+//
+//}
+//class SystemEngineer extends Employee{
+//    public SystemEngineer(String name)
+//    {
+//        super(name);
+//    }
+//}
+//class Main{
+//    public static void main(String[] args) {
+//        Employee systemEngineer = new SystemEngineer("Maria");
+//        System.out.println(systemEngineer.getName());
+//    }
+//}
